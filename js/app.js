@@ -19,8 +19,8 @@ const PRODUCTS = [
     certification: 'BIS Hallmarked',
     warranty: 'Lifetime',
     images: [
-      '../images/ring-1.jpg',
-      '../images/ring-1-2.jpg'
+      './images/ring-1.jpg',
+      './images/ring-1-2.jpg'
     ]
   },
   { 
@@ -37,8 +37,8 @@ const PRODUCTS = [
     certification: 'BIS Hallmarked',
     warranty: 'Lifetime',
     images: [
-      '../images/ring-2.jpg',
-      '../images/ring-2-2.jpg'
+      './images/ring-2.jpg',
+      './images/ring-2-2.jpg'
     ]
   },
   { 
@@ -55,8 +55,8 @@ const PRODUCTS = [
     certification: 'BIS Hallmarked',
     warranty: 'Lifetime',
     images: [
-      '../images/necklace-1.jpg',
-      '../images/necklace-1-2.jpg'
+      './images/necklace-1.jpg',
+      './images/necklace-1-2.jpg'
     ]
   },
   { 
@@ -68,8 +68,8 @@ const PRODUCTS = [
     category: 'necklaces', 
     reviewCount: 94,
     images: [
-      '../images/necklace-2.jpg',
-      '../images/necklace-2-2.jpg'
+      './images/necklace-2.jpg',
+      './images/necklace-2-2.jpg'
     ]
   },
   { 
@@ -81,8 +81,8 @@ const PRODUCTS = [
     category: 'bracelets', 
     reviewCount: 67,
     images: [
-      '../images/bracelet-1.jpg',
-      '../images/bracelet-1-2.jpg'
+      './images/bracelet-1.jpg',
+      './images/bracelet-1-2.jpg'
     ]
   },
   { 
@@ -94,8 +94,8 @@ const PRODUCTS = [
     category: 'earrings', 
     reviewCount: 203,
     images: [
-      '../images/earrings-1.jpg',
-      '../images/earrings-1-2.jpg'
+      './images/earrings-1.jpg',
+      './images/earrings-1-2.jpg'
     ]
   },
   { 
@@ -107,10 +107,10 @@ const PRODUCTS = [
     category: 'mangalsutra', 
     reviewCount: 156,
     images: [
-      '../images/necklace-1.jpg',
-      '../images/necklace-1-2.jpg',
-      '../images/necklace-1-3.jpg',
-      '../images/necklace-1-4.jpg'
+      './images/necklace-1.jpg',
+      './images/necklace-1-2.jpg',
+      './images/necklace-1-3.jpg',
+      './images/necklace-1-4.jpg'
     ]
   },
   { 
@@ -122,8 +122,8 @@ const PRODUCTS = [
     category: 'mangalsutra', 
     reviewCount: 89,
     images: [
-      '../images/necklace-2.jpg',
-      '../images/necklace-2-2.jpg'
+      './images/necklace-2.jpg',
+      './images/necklace-2-2.jpg'
     ]
   },
 ];
