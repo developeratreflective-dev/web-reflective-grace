@@ -122,8 +122,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Open WhatsApp
     window.open(whatsappUrl, '_blank');
     
+    // Clear the cart after WhatsApp is opened
+    localStorage.removeItem('goldsmith_cart');
+    
     // Show success message
-    GS.showToast('WhatsApp Opened!', 'Redirecting to WhatsApp with your cart details...');
+    GS.showToast('Order Submitted!', 'Your cart has been cleared and WhatsApp opened with order details.');
+    
+    // Re-render cart to show empty state
+    renderCart();
   });
   
   renderCart();
